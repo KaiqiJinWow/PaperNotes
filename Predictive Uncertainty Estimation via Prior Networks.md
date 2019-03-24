@@ -20,13 +20,13 @@
 
 ### Prior Networks
 
-The expected distribution $P(\omega_c|x^*,D)$ is obtained by marginalizing out the parameters $\theta$ and $\mu​$. ![image-20190324134250242](/image-20190324134250242.png)
+The expected distribution $P(\omega_c|x^*,D)$ is obtained by marginalizing out the parameters $\theta$ and $\mu​$. ![image-20190324134250242](./images/image-20190324134250242.png)
 
-if marginalizing out $\mu$,![image-20190324135636418](/image-20190324135636418.png)
+if marginalizing out $\mu$,![image-20190324135636418](./images/image-20190324135636418.png)
 
 if marginalizing out $\theta​$
 
-![image-20190324135753583](/image-20190324135753583.png)
+![image-20190324135753583](./images/image-20190324135753583.png)
 
 Besides, assume that a point-estimate of the parameters is sufficient given appropriate regularization and training data size.
 
@@ -36,7 +36,7 @@ $P(\omega_c|x^*;D)​$ $\approx​$ $P(\omega_c|x^*;\hat\theta )​$
 
 The posterior over class label is given by the mean of the DIrichlet:
 
-![image-20190324143208184](/image-20190324143208184.png)
+![image-20190324143208184](./images/image-20190324143208184.png)
 
 ##### Training
 
