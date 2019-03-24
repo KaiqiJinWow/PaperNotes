@@ -1,6 +1,4 @@
----
-typora-root-url: ./images
----
+
 
 ### Introduction
 
@@ -44,7 +42,7 @@ The posterior over class label is given by the mean of the DIrichlet:
 
 minimize the KL divergence between the model and a sharp Dirichlet distribution focused on the appropriate class for in-distribution data, and between the model and a ﬂat Dirichlet distribution for out-of-distribution data.
 
-![image-20190324144651431](/image-20190324144651431.png)
+![image-20190324144651431](./images/image-20190324144651431.png)
 
 where $\widetilde\alpha_c=1$ and $\hat\alpha_c = \hat\alpha_0$, which is a hype-parameter.
 
@@ -52,21 +50,21 @@ where $\widetilde\alpha_c=1$ and $\hat\alpha_c = \hat\alpha_0$, which is a hype-
 
 **Max Probability**: full marginalization, for total uncertainty.
 
-![image-20190324153544283](/image-20190324153544283.png)
+![image-20190324153544283](./images/image-20190324153544283.png)
 
 **Entropy**: for total uncertainty.
 
-![image-20190324153629890](/image-20190324153629890.png)
+![image-20190324153629890](./images/image-20190324153629890.png)
 
 **Mutual Information**:
 
-![image-20190324153822738](/image-20190324153822738.png)
+![image-20190324153822738](./images/image-20190324153822738.png)
 
-![image-20190324153853936](/image-20190324153853936.png)
+![image-20190324153853936](./images/image-20190324153853936.png)
 
 **differential entropy**: suited for distributional uncertainty.
 
-![image-20190324154116471](/image-20190324154116471.png)
+![image-20190324154116471](./images/image-20190324154116471.png)
 
 ### Conclusion
 
